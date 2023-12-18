@@ -62,3 +62,34 @@ body {
 	position:relative;
 	top:1px;
 }
+
+.metrics {
+ display: flex;
+ flex-direction: column;
+ gap: 25px;
+ justify-content: center;
+ align-items: center;
+ padding: 25px;
+}
+
+.metrics h3 {
+ color: #CCC1FF;
+ font-size: 20px;
+ font-weight: 400;
+}
+
+.metrics p {
+ color: #FFFFFF;
+ font-size: 14px;
+}
+
+.box {
+ width: 500px;
+ height: 109px;
+ background-color: #273549;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+}
